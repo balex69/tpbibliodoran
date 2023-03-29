@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 import styles from '@/styles/Administrateur.module.scss'
 
 export default function Administrateur() {

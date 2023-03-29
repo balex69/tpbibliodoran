@@ -17,6 +17,8 @@
     gap: 20px;
 
     a {
+      transition: ease-in-out 300ms;
+      display: block;
       color: #FFF;
       text-decoration: none;
       text-transform: uppercase;
@@ -25,6 +27,13 @@
     }
     a:hover{
       background: rgba(116, 147, 194, 0.1);
+    }
+
+    a:hover {
+      transition: ease-in-out 300ms;
+      display: block;
+      transform: translateY(-2px);
+      color: rgb(62, 108, 141);
     }
   }
 }

@@ -11,12 +11,12 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <form className={styles.form}>
-            <p>Bienvenue</p>
-            <input type="email" placeholder="Email"/> <br/>
-            <input type="password" placeholder="Mot de passe"/><br/>
-            <input type="button" value="Connexion"/><br/>
-            <a href="#">Mot de passe oublié</a><br/>
-            <a href="#">S'inscrire</a>
+            <p className={styles.p}>Bienvenue</p>
+            <input className={styles.input} type="email" placeholder="Email"/> <br/>
+            <input className={styles.input} type="password" placeholder="Mot de passe"/><br/>
+            <input className={styles.input} type="button" value="Connexion"/><br/>
+            <a className={styles.a} href="#">Mot de passe oublié</a><br/>
+            <a className={styles.a} href="#">S'inscrire</a>
         </form>
       </main>
     </>

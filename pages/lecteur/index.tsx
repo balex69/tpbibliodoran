@@ -13,21 +13,24 @@ export default function Lecteur() {
 
     return (
         <div className={styles.container}>
+            <h1>Voici la liste des livres</h1>
             {isLoading && <>Chargement des données...</>}
-            {data && data.map((book: IBook) => {
-                return (
-                    <Card key={book.id}>
-                        <div className="core">
-                            <h1>{book.titre}</h1>
-                            <h2 style={{marginBottom: '5px'}}>{book.auteur}</h2>
-                        </div>
-                        <div className="action">
-                            <RedirectButton name="Voir le détail" path="#" />
-                        </div>
-                    </Card>
-                )
+            <div className={styles.bookContainer}>
+                {data && data.map((book: IBook) => {
+                    return (
+                        <Card key={book.id}>
+                            <div className="core">
+                                <h1>{book.titre}</h1>
+                                <h2 style={{marginBottom: '5px'}}>{book.auteur}</h2>
+                            </div>
+                            <div className="action">
+                                <RedirectButton name="Voir le détail" path="#" />
+                            </div>
+                        </Card>
+                    )
 
-            })}
+                })}
+            </div>
         </div>
     );
 }

@@ -25,6 +25,7 @@ export default function Stock() {
 
     return (
         <div className={styles.container}>
+            <h1>Voici la liste des livres empruntés</h1>
             {borrows.isLoading && <>Chargement des données...</>}
             <div className={styles.borrowContainer}>
                 {(borrows && books && subscribers) && borrows.data?.map(borrow => {

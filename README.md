@@ -1,3 +1,8 @@
+# Pour démarrer le projet
+
+- npm i
+- node run dev
+
 # Gestion de bibliothèque
 
 Les différents onglets permettent de :

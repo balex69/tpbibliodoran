@@ -5,9 +5,9 @@ export default function Nav() {
         <header>
             <nav className={styles.nav}>
                 <ul>
-                    <li><a href="/accueil"></a>Accueil</li>
-                    <li><a href="/stock"></a>Stock</li>
-                    <li><a href="/lecteur"></a>Lecteur</li>
+                    <li><a href="/accueil">Accueil</a></li>
+                    <li><a href="/stock">Stock</a></li>
+                    <li><a href="/lecteur">Lecteur</a></li>
                 </ul>
                 <ul>
                     <li><a href="/connexion">Connexion</a></li>

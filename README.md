@@ -1,7 +1,7 @@
 # Pour démarrer le projet
 
 - npm i
-- node run dev
+- npm run dev
 
 # Gestion de bibliothèque
 

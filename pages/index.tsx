@@ -14,7 +14,7 @@ export default function Home() {
           <h1>Bienvenue sur la Bibliothèque de Doranco</h1>
           <div className={styles.actionContainer}>
               <RedirectButton name="Voir les livres" path="/lecteur"/>
-              <RedirectButton name="Voir les emprunts en cours" path="/lecteur"/>
+              <RedirectButton name="Voir les emprunts en cours" path="/stock"/>
           </div>
       </main>
     </>

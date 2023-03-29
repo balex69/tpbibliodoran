@@ -8,9 +8,9 @@ export default function Home() {
         <title>Bibliothèque Doranco</title>
         <meta name="description" content="Accès à la bibliothèque de Doranco" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-      </Head>
+      </Head>>
       <main className={styles.main}>
-        <h1>Titre</h1>
+          <h1>Titre</h1>
       </main>
     </>
   )

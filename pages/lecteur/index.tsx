@@ -16,7 +16,7 @@ export default function Lecteur() {
             {isLoading && <>Chargement des données...</>}
             {data && data.map((book: IBook) => {
                 return (
-                    <Card>
+                    <Card key={book.id}>
                         <div className="core">
                             <h1>{book.titre}</h1>
                             <h2 style={{marginBottom: '5px'}}>{book.auteur}</h2>

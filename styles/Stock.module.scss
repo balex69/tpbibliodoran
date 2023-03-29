@@ -1,6 +1,28 @@
 .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
   h1 {
     color: white;
   }
+
+  .borrowContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+
+    .borrow {
+      height: 125px;
+      border-radius: 8px;
+      padding: 10px 15px;
+      width: 500px;
+      color: white;
+      background:rgba(255, 255, 255, .3);
+      box-shadow: 7px 10px 15px -3px rgba(0,0,0,0.1);
+    }
+  }
+
 }

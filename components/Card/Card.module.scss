@@ -1,4 +1,6 @@
 .card {
+  transition-timing-function: ease-in-out;
+  transition-duration: 300ms;
   width: 300px;
   height: 150px;
   background-color: white;
@@ -19,4 +21,10 @@
     font-size: 1rem;
     cursor: text;
   }
+}
+
+.card:hover {
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out;
+  transform: scale(1.04);
 }

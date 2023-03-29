@@ -12,6 +12,7 @@ export default function Nav() {
             <ul>
                 <li><Link href="/connexion">Connexion</Link></li>
                 <li><Link href="/inscription">Inscription</Link></li>
+                <li><Link href="/administrateur">Administrateur</Link></li>
             </ul>
         </nav>
 

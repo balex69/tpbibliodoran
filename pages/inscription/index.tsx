@@ -11,12 +11,11 @@ export default function Inscription() {
       </Head>
       <main className={styles.main}>
         <form>
-            <p>Bievenue</p>
+            <p>S'inscrire</p>
             <input type="email" placeholder="Email"/> <br/>
             <input type="password" placeholder="Mot de passe"/><br/>
             <input type="button" value="Connexion"/><br/>
-            <a href="#">Mot de passe oublié</a><br/>
-            <a href="#">S'inscrire</a>
+            <a href="#">Connexion</a><br/>
         </form>
       </main>
     </>

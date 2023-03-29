@@ -5,7 +5,7 @@ export default function Nav() {
     return (
         <nav className={styles.nav}>
             <ul>
-                <li><Link href="/accueil">Accueil</Link></li>
+                <li><Link href="/">Accueil</Link></li>
                 <li><Link href="/lecteur">Lecteur</Link></li>
                 <li><Link href="/stock">Stock</Link></li>
             </ul>

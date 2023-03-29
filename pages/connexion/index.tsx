@@ -10,8 +10,8 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <main className={styles.main}>
-        <form>
-            <p>Bievenue</p>
+        <form className={styles.form}>
+            <p>Bienvenue</p>
             <input type="email" placeholder="Email"/> <br/>
             <input type="password" placeholder="Mot de passe"/><br/>
             <input type="button" value="Connexion"/><br/>

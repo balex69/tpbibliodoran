@@ -2,6 +2,7 @@ import useSwr from 'swr';
 import {IBook} from "@/pages/api/books";
 import Card from "@/components/Card/Card";
 import styles from "@/styles/Lecteur.module.scss"
+import RedirectButton from "@/components/RedirectButton/RedirectButton";
 
 
 const fetcher = (url: string) => fetch(url).then(res => res.json());
@@ -16,8 +17,13 @@ export default function Lecteur() {
             {data && data.map((book: IBook) => {
                 return (
                     <Card>
-                        <h1>{book.titre}</h1>
-                        <h2>{book.auteur}</h2>
+                        <div className="core">
+                            <h1>{book.titre}</h1>
+                            <h2 style={{marginBottom: '5px'}}>{book.auteur}</h2>
+                        </div>
+                        <div className="action">
+                            <RedirectButton name="Voir le détail" path="#" />
+                        </div>
                     </Card>
                 )
 

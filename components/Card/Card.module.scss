@@ -2,14 +2,16 @@
   transition-timing-function: ease-in-out;
   transition-duration: 300ms;
   width: 300px;
-  height: 150px;
-  background-color: white;
-  border-radius: 16px;
+  height: 200px;
+  background:rgba(255, 255, 255, .3);
+  color: white;
+  border-radius: 8px;
   box-shadow: 7px 10px 15px -3px rgba(0,0,0,0.1);
   padding: 1rem;
   display: flex;
   flex-direction: column;
   cursor: pointer;
+  justify-content: space-between;
 
   h1 {
     text-transform: capitalize;

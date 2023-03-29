@@ -1,7 +1,7 @@
 import Head from 'next/head'
-import styles from '@/styles/Home.module.scss'
+import styles from '@/styles/Inscription.module.scss'
 
-export default function Home() {
+export default function Inscription() {
   return (
     <>
       <Head>
@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <form>
-            <p>Accueil</p>
+            <p>Bievenue</p>
             <input type="email" placeholder="Email"/> <br/>
             <input type="password" placeholder="Mot de passe"/><br/>
             <input type="button" value="Connexion"/><br/>

@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Link from "next/link";
 import styles from '@/styles/Administrateur.module.scss'
 
 export default function Administrateur() {
@@ -16,7 +15,7 @@ export default function Administrateur() {
                     <input className={styles.input} type="email" placeholder="Email"/> <br/>
                     <input className={styles.input} type="password" placeholder="Mot de passe"/><br/>
                     <input className={styles.input} type="button" value="Connexion"/><br/>
-                    <a className={styles.a} href="#">Mot de passe oublié</a><br/>
+                    <a className={styles.a} href="#">Mot de passe oublié ?</a><br/>
                 </form>
             </main>
         </>

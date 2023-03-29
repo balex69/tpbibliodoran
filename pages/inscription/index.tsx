@@ -17,7 +17,7 @@ export default function Inscription() {
             <input className={styles.input} type="email" name="email" placeholder="Email" /> <br/>
             <input className={styles.input} type="password" name="password" placeholder="Mot de passe" /><br/>
             <input className={styles.input} type="button" value="S'inscrire" /><br/>
-            <p className={styles.p}>Déjà inscrit ? <a className={styles.a} href="Connexion.html"> Se connecter</a></p>
+            <p className={styles.p}>Déjà inscrit ? <a className={styles.a} href="/connexion"> Se connecter</a></p>
         </form>
       </main>
     </>

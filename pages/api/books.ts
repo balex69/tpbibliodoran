@@ -1,6 +1,6 @@
 import type {NextApiRequest, NextApiResponse} from 'next'
 
-interface IBook {
+export interface IBook {
     id: number,
     titre: string,
     auteur: string

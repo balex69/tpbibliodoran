@@ -1,20 +1,19 @@
 import styles from "./Nav.module.scss"
+import Link from "next/link";
 
 export default function Nav() {
     return (
-        <header>
-            <nav className={styles.nav}>
-                <ul>
-                    <li><a href="/accueil">Accueil</a></li>
-                    <li><a href="/stock">Stock</a></li>
-                    <li><a href="/lecteur">Lecteur</a></li>
-                </ul>
-                <ul>
-                    <li><a href="/connexion">Connexion</a></li>
-                    <li><a href="/inscription">Inscription</a></li>
-                </ul>
-            </nav>
-        </header>
+        <nav className={styles.nav}>
+            <ul>
+                <li><Link href="/accueil">Accueil</Link></li>
+                <li><Link href="/lecteur">Lecteur</Link></li>
+                <li><Link href="/stock">Stock</Link></li>
+            </ul>
+            <ul>
+                <li><Link href="/connexion">Connexion</Link></li>
+                <li><Link href="/inscription">Inscription</Link></li>
+            </ul>
+        </nav>
 
     )
 }

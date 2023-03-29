@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import styles from '@/styles/Inscription.module.scss'
 
 export default function Inscription() {
   return (
@@ -9,7 +8,7 @@ export default function Inscription() {
         <meta name="description" content="Accès à la bibliothèque de Doranco" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
-      <main className={styles.main}>
+      <main>
         <form>
             <p>S'inscrire</p>
             <input type="email" placeholder="Email"/> <br/>

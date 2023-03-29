@@ -52,6 +52,14 @@
   background: rgba(116, 147, 194, 0.984);
 }
 
+.input[type="form"]{
+  -webkit-border-top-right-radius: 15px;
+  -webkit-border-bottom-right-radius: 18px;
+  -moz-border-radius-topright: 15px;
+  -moz-border-radius-bottomright: 18px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 18px;
+}
 
 .input[type="button"]{
   margin-top: 10px;

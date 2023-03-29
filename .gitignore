@@ -37,3 +37,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+#fichiers divers
+TP_Gestion_bibliotheque_.pdf

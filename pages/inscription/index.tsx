@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import styles from '@/styles/Home.module.scss'
 
 export default function Inscription() {
   return (
@@ -9,14 +10,14 @@ export default function Inscription() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <main>
-        <form>
-            <p>S'inscrire</p>
-            <input type="text" name="nom" placeholder="Nom" /> <br/>
-            <input type="text" name="prenom" placeholder="Prénom" /> <br/>
-            <input type="email" name="email" placeholder="Email" /> <br/>
-            <input type="password" name="password" placeholder="Mot de passe" /><br/>
-            <input type="button" value="S'inscrire" /><br/>
-            <p>Déjà inscrit ? <a href="Connexion.html"> Se connecter</a></p>
+      <form className={styles.form}>
+            <p className={styles.p}>S'inscrire</p>
+            <input className={styles.input} type="text" name="nom" placeholder="Nom" /> <br/>
+            <input className={styles.input} type="text" name="prenom" placeholder="Prénom" /> <br/>
+            <input className={styles.input} type="email" name="email" placeholder="Email" /> <br/>
+            <input className={styles.input} type="password" name="password" placeholder="Mot de passe" /><br/>
+            <input className={styles.input} type="button" value="S'inscrire" /><br/>
+            <p className={styles.p}>Déjà inscrit ? <a className={styles.a} href="Connexion.html"> Se connecter</a></p>
         </form>
       </main>
     </>
